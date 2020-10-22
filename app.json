@@ -1,6 +1,4 @@
 {
-  "name": "Heroku + Sentry",
-  "description": "Deploy to Heroku.",
-  "image": "heroku/python",
-  "keywords": ["python", "bottle" ]
+  "name": "Python server with Heroku + Sentry",
+  "description": "Cloud server with logging"
 }
