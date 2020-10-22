@@ -1,7 +1,8 @@
-import sentry_sdk
 import os
-from bottle import run, route, HTTPResponse
+import sentry_sdk
 from sentry_sdk.integrations.bottle import BottleIntegration
+from bottle import run, route, HTTPResponse
+
 
 SENTRY_DSN = "https://d38b13cc54fe49a3869b0aa349af4184@o464474.ingest.sentry.io/5473342"
 
