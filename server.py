@@ -1,3 +1,4 @@
+import os
 import sentry_sdk
 from bottle import Bottle, HTTPResponse
 from sentry_sdk.integrations.bottle import BottleIntegration
