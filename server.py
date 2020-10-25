@@ -28,7 +28,7 @@ def index():
             }
             
             hr {
-                color: yellow;
+                color: magenta;
             }
             
             h2 {
