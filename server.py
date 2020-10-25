@@ -6,10 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-sentry_sdk.init(
-    dsn=os.environ['SENTRY_DSN'],
-    integrations=[BottleIntegration()]
-)
+sentry_sdk.init(dsn=os.environ['SENTRY_DSN'], integrations=[BottleIntegration()])
 
 @route("/")
 def index():
@@ -20,10 +17,15 @@ def index():
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Python web server on [Heroku + Sentry]</title>
+        <style>
+            p {
+                color: red;
+            }
+        </style>
     </head>
     <body>
         <h1>This is main page</h1>
-        <p>For visit successful page, append to the end of URL <span style="color: red">'/success'</span></p>
+        <p>For visit successful page, append to the end of URL '/success'</p>
         <p>For visit failed page, append to the end of URL '/fail'</p>
     </body>
 </html>
