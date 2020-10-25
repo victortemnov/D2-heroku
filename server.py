@@ -16,7 +16,7 @@ def index():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Python web server on [Heroku + Sentry]</title>
+        <title>Web-server Python + Heroku + Sentry</title>
         <style>
             span {
                 color: green;
@@ -27,7 +27,7 @@ def index():
         <h1>This is main page</h1>
         <h2>For visit successful page, append to the end of URL https://heroku-d2-hw.herokuapp.com<span>/success</span></h2>
         <hr>
-        <h2>For visit failed page, append to the end of URL https://heroku-d2-hw.herokuapp.com<span>/fail</span></h2>
+        <h2>For visit fail page, append to the end of URL https://heroku-d2-hw.herokuapp.com<span>/fail</span></h2>
     </body>
 </html>
 """
