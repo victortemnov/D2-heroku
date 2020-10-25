@@ -23,7 +23,7 @@ def index():
     </head>
     <body>
         <h1>This is main page</h1>
-        <p>For visit successful page, append to the end of URL '/success'</p>
+        <p>For visit successful page, append to the end of URL <span style="color: red">'/success'</span></p>
         <p>For visit failed page, append to the end of URL '/fail'</p>
     </body>
 </html>
