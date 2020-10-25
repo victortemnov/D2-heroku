@@ -37,12 +37,12 @@ def index():
 
 @route("/success")
 def sucess():
-    return HTTPResponse(status=200, body="OK")
+    return HTTPResponse(status=200, body="Successful page")
 
 @route("/fail")
 def fail():
     raise RuntimeError("Server error")
-    return HTTPResponse(status=500, body="Error page")
+    return HTTPResponse(status=500, body="Fail page")
 
 
 if __name__ == "__main__":
