@@ -18,27 +18,21 @@ def index():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>D2 Temnov</title>
         <style>
-        
             body {
                 background-color: black;
             }
-        
             h1 {
                 color: deeppink;
             }
-            
             hr {
                 color: magenta;
             }
-            
             h2 {
                 color: darkorchid;
             }
-        
             span {
                 color: red;
             }
-            
         </style>
     </head>
     <body>
