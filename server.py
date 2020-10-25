@@ -19,7 +19,7 @@ def index():
         <title>Web-server Python + Heroku + Sentry</title>
         <style>
             span {
-                color: green;
+                color: red;
             }
         </style>
     </head>
