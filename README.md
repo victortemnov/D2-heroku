@@ -1,2 +1,2 @@
-# Open source project `python + heroku + sentry.io`
-## [App](https://heroku-d2-hw.herokuapp.com/)
+# HW D2
+## [Python + Heroku + Sentry](https://heroku-d2-hw.herokuapp.com/)
