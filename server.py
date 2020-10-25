@@ -20,16 +20,21 @@ def index():
         <style>
         
             body {
-                background-color: yellow;
+                background-color: black;
             }
         
             h1 {
-                color: green;
+                color: blue;
+            }
+            
+            h2 {
+                color: white;
             }
         
             span {
                 color: red;
             }
+            
         </style>
     </head>
     <body>
