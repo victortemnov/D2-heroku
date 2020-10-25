@@ -18,6 +18,15 @@ def index():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>D2 Temnov</title>
         <style>
+        
+            body {
+                background-color: yellow;
+            }
+        
+            h1 {
+                color: green;
+            }
+        
             span {
                 color: red;
             }
