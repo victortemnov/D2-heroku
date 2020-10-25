@@ -13,7 +13,7 @@ sentry_sdk.init(
 
 @route("/")
 def index():
-    return HTTPResponse(status=200, body="append to url /success or /fail")
+    return HTTPResponse(status=200, body="Nothing bad happend. Append to URL '/success' or '/fail'")
 
 @route("/success")
 def sucess():
