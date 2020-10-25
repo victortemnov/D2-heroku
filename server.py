@@ -7,7 +7,7 @@ load_dotenv()
 
 
 sentry_sdk.init(
-    dsn=SENTRY_DSN,
+    dsn=os.environ['SENTRY_DSN'],
     integrations=[BottleIntegration()]
 )
 
