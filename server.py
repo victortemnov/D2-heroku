@@ -2,7 +2,8 @@ import os
 import sentry_sdk
 from sentry_sdk.integrations.bottle import BottleIntegration
 from bottle import run, route, HTTPResponse
-
+from dotenv import load_dotenv
+load_dotenv()
 
 SENTRY_DSN = "https://d38b13cc54fe49a3869b0aa349af4184@o464474.ingest.sentry.io/5473342"
 
