@@ -25,8 +25,8 @@ def index():
     </head>
     <body>
         <h1>This is main page</h1>
-        <h2>For visit successful page, append to the end of URL https://heroku-d2-hw.herokuapp.com<span>'/success'</span></h2>
-        <h2>For visit failed page, append to the end of URL https://heroku-d2-hw.herokuapp.com<span>'/fail'</span></h2>
+        <h2>For visit successful page, append to the end of URL https://heroku-d2-hw.herokuapp.com<span>/success</span></h2>
+        <h2>For visit failed page, append to the end of URL https://heroku-d2-hw.herokuapp.com<span>/fail</span></h2>
     </body>
 </html>
 """
