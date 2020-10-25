@@ -24,7 +24,7 @@ def index():
             }
         
             h1 {
-                color: blue;
+                color: deeppink;
             }
             
             hr {
@@ -59,8 +59,8 @@ def sucess():
 
 @route("/fail")
 def fail():
-    raise RuntimeError("Server error")
-    return
+    raise RuntimeError("Fail page")
+    return HTTPResponse(status=500, body="Fail page")
 
 
 if __name__ == "__main__":
