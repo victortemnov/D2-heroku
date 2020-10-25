@@ -13,7 +13,22 @@ sentry_sdk.init(
 
 @route("/")
 def index():
-    return HTTPResponse(status=200, body="Nothing bad happend. Append to URL '/success' or '/fail'")
+    form = """
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Python web server on [Heroku + Sentry]</title>
+    </head>
+    <body>
+        <h1>This is main page</h1>
+        <p>For visit successful page, append to the end of URL '/success'</p>
+        <p>For visit failed page, append to the end of URL '/fail'</p>
+    </body>
+</html>
+"""
+    return form
 
 @route("/success")
 def sucess():
@@ -22,6 +37,7 @@ def sucess():
 @route("/fail")
 def fail():
     raise RuntimeError("Server error")
+    return HTTPResponse(status=500, body="Error page")
 
 
 if __name__ == "__main__":
