@@ -32,7 +32,7 @@ def index():
             }
             
             h2 {
-                color: white;
+                color: darkorchid;
             }
         
             span {
