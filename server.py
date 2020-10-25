@@ -42,7 +42,7 @@ def sucess():
 @route("/fail")
 def fail():
     raise RuntimeError("Server error")
-    return HTTPResponse(status=500, body="Fail page")
+    return
 
 
 if __name__ == "__main__":
